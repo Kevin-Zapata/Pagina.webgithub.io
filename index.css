@@ -127,14 +127,14 @@ header a:hover{
 }
 
 .carta:first-child{
-    background-image: url("/media/primero.jpg");
+    background-image: url("media/primero.jpg");
     
 }
 .carta:nth-child(2){
-    background-image:url("/media/Segundo.jpg");
+    background-image:url("media/Segundo.jpg");
 }
 .carta:last-child  { 
-    background-image: url("/media/Tercer.jpg");
+    background-image: url("media/Tercer.jpg");
 }
 
 #requisitos .container{
@@ -200,7 +200,7 @@ justify-content: space-evenly;
     margin-top: 0px;
 }
 #aviso1 .img-container{
-    background-image: url("/media/aviso.jpg");
+    background-image: url("media/aviso.jpg");
     background-size: cover;
     background-position: center center;
     height: 500px;
@@ -222,7 +222,7 @@ justify-content: space-evenly;
     padding: 15px;
 }
 #requisitos {
-    background-image: url("/media/requisitos.jpg");
+    background-image: url("media/requisitos.jpg");
     background-repeat: no-repeat;
     background-size: 500px 400px;
     background-position: calc(100vw - 600px) 120px;
