@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    
 }
 
 body{
@@ -101,8 +102,8 @@ header a:hover{
     padding: 200px 12px;
 }
 #premios{
-    background-color: rgb(30,30,30);
-    color: white;
+    background-color: #30A2FF;
+    color: black;
     text-align: center;
 }
 #premios .container{
@@ -122,6 +123,7 @@ header a:hover{
     padding: 50px 0px;
     margin: 30px;
     border-radius: 15px;
+    font-weight: bold;
 }
 
 .carta:first-child{
@@ -161,4 +163,79 @@ header a:hover{
 }
 #inscribete button {
     font-size: 5vw;;
+}
+@media (min-width:720px){
+header{
+    position: fixed;
+    width: 100%;
+}
+#hero h1 {
+    font-size: 5em;
+}
+header .container {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 30px;
+}
+#aviso1 .container{
+display: flex;
+justify-content: space-evenly;
+}
+#aviso1 .texto{
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding: 0px 30px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#aviso1 h2{
+    margin-top: 0px;
+}
+#aviso1 .img-container{
+    background-image: url("/media/aviso.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 400px;
+}
+#premios .premio{
+    display: flex;
+    justify-content: center;
+}
+
+#premios p{
+    display: block;
+    margin-bottom: 30px;
+}
+#premios h3{
+    margin-top: 0;
+}
+#premios .carta{
+    padding: 15px;
+}
+#requisitos {
+    background-image: url("/media/requisitos.jpg");
+    background-repeat: no-repeat;
+    background-size: 500px 400px;
+    background-position: calc(100vw - 600px) 120px;
+}
+
+#requisitos .container{
+    text-align: initial;
+}
+
+#requisitos ul{
+    margin-left: 100px;
+}
+#inscribete button{
+    font-size: 2em;
+}
 }
